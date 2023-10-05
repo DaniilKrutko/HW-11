@@ -1,10 +1,9 @@
-.box-item {
+.box {
+    box-sizing: border-box;
     width: 350px;
     height: 220px;
-    border: solid green;
-}
-.box {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 200px;
-}
+    border: 2px solid #f44336;
+    padding: 15px 10px 20px 10px;
+    margin: 30px;
+    background-color: green;
+    }
