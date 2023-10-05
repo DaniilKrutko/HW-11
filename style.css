@@ -1,0 +1,10 @@
+.box-item {
+    width: 350px;
+    height: 220px;
+    border: solid green;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+}
